@@ -6,7 +6,7 @@ def testOnDivision():
     numerator = rN[0] * rN[1] #gets a multiple of the first and second number
     dinominator = rN[1]    
     
-    question = "\tQuestion: {0} {1} {2} = ".format(numerator, "/", dinominator)
+    question = "\t\t\t\t Question: {0} {1} {2} = ".format(numerator, "/", dinominator)
     answer = numerator / dinominator
     
     return [question, answer]
@@ -14,7 +14,7 @@ def testOnDivision():
     
 def testOnMultiplication():
     rN = generateRandomNumbers() #rN stands for random number
-    question = "\tQuestion: {0} {1} {2} = ".format(rN[0], "x", rN[1])
+    question = "\t\t\t\t Question: {0} {1} {2} = ".format(rN[0], "x", rN[1])
     answer = rN[0] * rN[1]
     
     return [question, answer]
